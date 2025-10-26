@@ -1,0 +1,116 @@
+body{
+ 
+    background-image: url(../assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    
+}
+@media(max-width:1067px){
+    body{
+         background-image: url(../assets/crew/background-crew-tablet.jpg);
+         background-size:cover;
+         background-repeat: no-repeat;
+         background-position:center center;
+         background-attachment:fixed;
+        
+    }
+}
+@media(max-width:767px){
+     body{
+         background-image: url(../assets/crew/background-crew-mobile.jpg);
+         background-size:cover;
+         background-repeat: no-repeat;
+         background-position:center center;
+         background-attachment:fixed;
+        
+    }
+}
+
+.hero_section_crew .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+@media(max-width:768px){
+   .hero_section_crew .container{
+     flex-direction:column;
+     align-items: center;
+     display: block;
+
+
+    }
+}
+
+.hero_section_crew .container .left_crew{
+    padding: 20px;
+    position: relative;
+}
+@media(max-width:786px){
+    .hero_section_crew .container .left_crew{
+        text-align: center;
+    }
+}
+.hero_section_crew .container .left_crew  h5:first-child{
+    position: absolute;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--whiteColor_two);
+    top: -120px;  
+    letter-spacing: 2px;
+}
+@media(max-width:786px){
+    .hero_section_crew .container .left_crew  h5:first-child{
+      position: static;
+    }
+}
+@media(max-width:1016px){
+    .hero_section_crew .container .left_crew  h5:first-child{
+        top: 0;
+    }
+}
+.hero_section_crew .container .left_crew  h5:nth-child(2){
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--whiteColor_two);
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+.hero_section_crew .container .left_crew h2{
+    margin-top:10px;
+     font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.hero_section_crew .container .left_crew p{
+    color: var(--whiteColor_two);
+    letter-spacing: 1px;
+
+}
+.hero_section_crew .container .left_crew .circles{
+    text-align: center;
+ 
+}
+.hero_section_crew .container .left_crew .circles span{
+   color: transparent;
+    border: none solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:gray;
+    margin-left: 10px;
+    padding: 0px 8px;
+}
+.hero_section_crew .container .left_crew .circles span.active{
+    background-color:white;
+}
+.hero_section_crew .container .right_crew img{
+    width: 80%;
+    height: 100%;
+   
+}
+@media (min-width:768px) and (max-width:1016px){
+    
+.hero_section_crew .container .right_crew img{
+    width: 100%;
+}
+}

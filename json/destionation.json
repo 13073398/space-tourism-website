@@ -1,0 +1,52 @@
+[
+
+     {
+        "id":1,
+        "title":" Moon",
+        "content":"See our planet as you’ve never seen it before. A perfect relaxing trip away to help <br>  regain perspective and come back refreshed. While you’re there, take in some history <br> by visiting the Luna 2 and Apollo 11 landing sites.",
+        "image_desktob":"../assets/destination/image-moon.webp",
+        "image_media":"../assets/destination/image-moon.png",
+        "left_title_one":" Avg. distance",
+        "left_title_two":"  384,400 km",
+        "right_title_one":"Est. travel time",
+        "right_title_two":" 3 days"
+    
+    },
+       {
+         "id":2,
+        "title":" Mars",
+        "content":" Don’t forget to pack your hiking boots. You’ll need them <br> to tackle Olympus Mons, the tallest planetary mountain in <br> our solar system. It’s two and a half times   the size of <br> Everest!",
+        "image_desktob":"../assets/destination/image-mars.webp",
+        "image_media":"../assets/destination/image-mars.png",
+        "left_title_one":" Avg. distance",
+        "left_title_two":"  225 mil. km",
+        "right_title_one":"Est. travel time",
+        "right_title_two":" 9 months"
+    
+    },
+     
+    {
+         "id":3,
+        "title":"Europa",
+        "content":"The smallest of the four Galilean moons orbiting Jupiter, Europa is a <br>  winter lover’s dream. With an icy surface, it’s perfect for a bit of <br>  ice skating, curling, hockey, or simple relaxation in your snug <br>  wintery cabin.",
+        "image_desktob":"../assets/destination/image-europa.webp",
+        "image_media":"../assets/destination/image-europa.png",
+        "left_title_one":" Avg. distance",
+        "left_title_two":" 628 mil. km",
+        "right_title_one":"Est. travel time",
+        "right_title_two":"3 years"
+    
+    },
+    {
+         "id":4,
+        "title":"  Titan",
+        "content":"The only moon known to have a dense atmosphere other than Earth, Titan <br> is a home away from home (just a few hundred degrees colder!). As a <br> bonus, you get striking views of the Rings of Saturn",
+        "image_desktob":"../assets/destination/image-titan.webp",
+        "image_media":"../assets/destination/image-titan.png",
+        "left_title_one":" Avg. distance",
+        "left_title_two":" 1.6 bil. km",
+        "right_title_one":"Est. travel time",
+        "right_title_two":"  7 years"
+    
+    }
+]
