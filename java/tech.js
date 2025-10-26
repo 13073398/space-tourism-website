@@ -45,22 +45,22 @@ opetions_steps.forEach((ele)=>{
             ele.classList.remove("active");
         });
         e.currentTarget.classList.add("active");
-        gsap.fromTo( text_title,{opacity:"0%"},{opacity:"100%",duration:"10"});
-        gsap.fromTo( text_body,{opacity:"0%"},{opacity:"100%",duration:"10"});
-        gsap.fromTo( opetions_steps,{opacity:"0%"},{opacity:"100%",duration:"10"});
-        gsap.fromTo( ".hero_section_crew .title h2 ",{opacity:"0%"},{opacity:"100%",duration:"10"});
-        gsap.fromTo( ".hero_section_crew .details .details_title h6 ",{opacity:"0%"},{opacity:"100%",duration:"10"});
-        gsap.fromTo( ".right ,image img ",{opacity:"0%"},{opacity:"100%",duration:"10"});
+        gsap.fromTo( text_title,{opacity:"0%"},{opacity:"100%",duration:"5"});
+        gsap.fromTo( text_body,{opacity:"0%"},{opacity:"100%",duration:"5"});
+        gsap.fromTo( opetions_steps,{opacity:"0%"},{opacity:"100%",duration:"5"});
+        gsap.fromTo( ".hero_section_crew .title h2 ",{opacity:"0%"},{opacity:"100%",duration:"5"});
+        gsap.fromTo( ".hero_section_crew .details .details_title h6 ",{opacity:"0%"},{opacity:"100%",duration:"5"});
+        gsap.fromTo( ".right ,image img ",{opacity:"0%"},{opacity:"100%",duration:"5"});
        
     })
  })
 
 //make animation to the text
 window.onload=function(){
-  gsap.fromTo( text_title,{opacity:"0%"},{opacity:"100%",duration:"10"});
-  gsap.fromTo( text_body,{opacity:"0%"},{opacity:"100%",duration:"10"});
-  gsap.fromTo( opetions_steps,{opacity:"0%"},{opacity:"100%",duration:"10"});
-  gsap.fromTo( ".hero_section_crew .title h2 ",{opacity:"0%"},{opacity:"100%",duration:"10"});
-  gsap.fromTo( ".hero_section_crew .details .details_title h6 ",{opacity:"0%"},{opacity:"100%",duration:"10"});
-   gsap.fromTo( ".right ,image img ",{opacity:"0%"},{opacity:"100%",duration:"10"});
+  gsap.fromTo( text_title,{opacity:"0%"},{opacity:"100%",duration:"5"});
+  gsap.fromTo( text_body,{opacity:"0%"},{opacity:"100%",duration:"5"});
+  gsap.fromTo( opetions_steps,{opacity:"0%"},{opacity:"100%",duration:"5"});
+  gsap.fromTo( ".hero_section_crew .title h2 ",{opacity:"0%"},{opacity:"100%",duration:"5"});
+  gsap.fromTo( ".hero_section_crew .details .details_title h6 ",{opacity:"0%"},{opacity:"100%",duration:"5"});
+   gsap.fromTo( ".right ,image img ",{opacity:"0%"},{opacity:"100%",duration:"5"});
 }
