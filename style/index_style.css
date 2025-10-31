@@ -261,6 +261,7 @@ header .container .menue ul li:not(:first-child){
 
 }
 /* End hero_section */
+/* start footer */
 .footer{
   position: relative;   
   color: var(--whiteColor);
@@ -272,7 +273,9 @@ header .container .menue ul li:not(:first-child){
   padding: 0;
   height:13%;
   text-transform: capitalize;
+ 
 }
+
 .footer::before{
    position: absolute;
    content: "";
@@ -280,10 +283,11 @@ header .container .menue ul li:not(:first-child){
    width: 50%;
    left: 50%;
    transform: translateX(-50%);
+  
 }
-.footer h4{
-    margin-bottom: 0;
+@media(max-width:1016px){
+    .footer{
+        display: none;
+    }
 }
-.footer h5{
-    margin-top: 0;
-}
+/* End footer */

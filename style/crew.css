@@ -46,10 +46,20 @@ body{
     padding: 20px;
     position: relative;
 }
+@media(max-width:992px){
+   .hero_section_crew .container .left_crew{
+    padding: 0;
+   } 
+}
 @media(max-width:786px){
     .hero_section_crew .container .left_crew{
         text-align: center;
     }
+}
+@media(max-width:992px){
+     .hero_section_crew .container .left_crew h5{
+        margin: 0;
+     }
 }
 .hero_section_crew .container .left_crew  h5:first-child{
     position: absolute;
@@ -87,9 +97,19 @@ body{
     letter-spacing: 1px;
 
 }
+@media(max-width:992px){
+    .hero_section_crew .container .left_crew p{
+        margin: 0;
+    }
+}
 .hero_section_crew .container .left_crew .circles{
     text-align: center;
  
+}
+@media(max-width:992px){
+    .hero_section_crew .container .left_crew .circles{
+        margin-top: 10px;
+    }
 }
 .hero_section_crew .container .left_crew .circles span{
    color: transparent;
@@ -108,9 +128,28 @@ body{
     height: 100%;
    
 }
-@media (min-width:768px) and (max-width:1016px){
+
+
+@media(max-width:768px){
+
+    .hero_section_crew .container .right_crew{
+        display: flex;
+        justify-content: center;
+         margin-top: 20px;
+    }
+        
     
-.hero_section_crew .container .right_crew img{
-    width: 100%;
+    .hero_section_crew .container .right_crew img{
+        width: 40%;
+        height: 4%;
+   
+    }
 }
+@media(max-width:300px){
+        
+    .hero_section_crew .container .right_crew img{
+        width: 50px;
+        height: 50px;
+   
+    }
 }
